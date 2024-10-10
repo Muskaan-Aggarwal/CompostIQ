@@ -1,0 +1,152 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    padding: 0 20px;
+    color: white;
+}
+
+nav .logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+nav ul {
+    flex-grow: 1;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+
+
+/* Hero Section */
+.hero {
+    position: relative;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 50px 20px;
+}
+
+.hero-banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.hero-content {
+    margin-top: 20px;
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-button {
+    padding: 15px 25px;
+    background-color: #fff;
+    color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #eee;
+}
+
+
+/* Form Section */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Visualization */
+canvas {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40; /* Dark background */
+    color: #ffffff; /* White text */
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Responsive Design for Footer */
+@media (max-width: 600px) {
+    footer h2 {
+        font-size: 1.2em;
+    }
+    footer p {
+        font-size: 0.9em;
+    }
+}

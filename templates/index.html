@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AI-Powered Agri-Waste Composting Optimization">
+    <title>AI-Powered Composting Optimization</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+
+    <!-- Navbar with Logo -->
+    <nav>
+        <div class="logo">
+            <img src="static\images\Screenshot 2024-10-09 142416.png" alt="Project Logo">
+        </div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#ai-model">AI Model</a></li>
+            <li><a href="#visualizations">Visualizations</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section with Banner -->
+    <section id="home" class="hero">
+        <div class="hero-banner">
+            <img src="static\images\DALL·E 2024-10-09 14.21.31 - A hyper-realistic depiction of agricultural waste being transformed into biofertilizer. The scene should include a variety of realistic agricultural w.webp" alt="Agricultural Waste and Biofertilizer">
+        </div>
+        <div class="hero-content">
+            <h1>CompostIQ</h1>
+            <p>
+                Our project leverages artificial intelligence to optimize the composting process 
+                of agricultural waste, ensuring enhanced compost quality and improved efficiency.
+                Through predictive analytics, farmers and researchers can get actionable insights
+                to accelerate composting, reduce waste, and produce high-quality biofertilizer.
+            </p>
+            <a href="#ai-model" class="cta-button">Try the AI Model</a>
+        </div>
+    </section>
+
+    <!-- AI Model Section -->
+    <section id="ai-model">
+        <h2>Optimize Your Composting Process with AI</h2>
+        <form action="/predict" method="POST">
+            <label for="moisture">Moisture Level:</label>
+            <input type="text" id="moisture" name="moisture" required><br>
+
+            <label for="temperature">Temperature:</label>
+            <input type="text" id="temperature" name="temperature" required><br>
+
+            <label for="ph">pH Level:</label>
+            <input type="text" id="ph" name="ph" required><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Visualizations Section -->
+    <section id="visualizations">
+        <h2>Compost Quality Over Time</h2>
+        <canvas id="compostQualityChart"></canvas>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to optimizing the composting process for farmers and researchers using AI and machine learning technologies.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: muskaanaggarwal273@gmail.com</p>
+        <p>Phone: +918394009494</p>
+    </footer>
+    <script src="/static/js/chart.js"></script>
+</body>
+</html>
