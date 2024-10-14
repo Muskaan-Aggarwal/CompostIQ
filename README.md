@@ -1,4 +1,4 @@
-# -AI-Powered-Agri-Waste-Composting-Optimization-project
+# -AI-Powered-Agri-Waste-Composting-Optimization-project -"CompostIQ"
 
 ## Overview
 
