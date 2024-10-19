@@ -2,7 +2,7 @@
 
 ## Overview
 
-The AI-Powered Agri-Waste Composting Optimization project aims to develop a machine learning model that optimizes the composting process for agricultural waste. The goal is to enhance compost quality, improve process efficiency, and provide actionable insights for farmers to manage composting better. The project leverages AI and data-driven methods to monitor key factors and predict compost quality over time.
+The AI-Powered Agri-Waste Composting Optimization project aims to develop a machine learning model that optimizes the composting process for agricultural waste. The goal is to enhance compost quality, improve process efficiency, and provide actionable insights for farmers to manage composting better. The project leverages AI and data-driven methods to monitor key factors and predict compost quality over time
 
 ## Key Features
 
